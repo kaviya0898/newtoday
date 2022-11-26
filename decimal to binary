@@ -1,0 +1,10 @@
+int n=3;
+		int binary=0,remainder=0,index=1;
+		while(n!=0)
+		{
+			 remainder=n%2;
+			 n=n/2;
+			 binary=binary+remainder*index;
+			 index=index*10;
+		}
+		System.out.println(binary);
